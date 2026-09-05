@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Said Abdalsalam — Backend Developer</title>
+<meta name="description" content="Said Abdalsalam — Backend developer specializing in ASP.NET Core, Clean Architecture, Domain-Driven Design, and CQRS.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Said Abdalsalam — Backend Developer">
+<meta property="og:description" content="Backend developer specializing in ASP.NET Core, Clean Architecture, Domain-Driven Design, and CQRS.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Said Abdalsalam — Backend Developer">
+<meta name="twitter:description" content="Backend developer specializing in ASP.NET Core, Clean Architecture, Domain-Driven Design, and CQRS.">
+<meta name="theme-color" content="#0D1117">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230D1117'/%3E%3Ctext x='50' y='68' font-family='monospace' font-size='58' font-weight='700' fill='%235FB4D9' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#top" class="mark" data-en="said.dev" data-ar="سعيد.dev">said.dev</a>
+    <nav class="nav">
+      <a href="#work" data-en="Work" data-ar="الأعمال">Work</a>
+      <a href="#stack" data-en="Stack" data-ar="الأدوات">Stack</a>
+      <a href="#approach" data-en="Approach" data-ar="المنهج">Approach</a>
+      <a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a>
+    </nav>
+    <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+      <span data-en="AR" data-ar="EN">AR</span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-kicker" data-en="Backend Developer" data-ar="مطوّر باك-إند">Backend Developer</p>
+        <h1 class="hero-title">
+          <span data-en="Said Abdalsalam" data-ar="سعيد عبدالسلام">Said Abdalsalam</span>
+        </h1>
+        <p class="hero-sub" data-en="Building backend systems with ASP.NET Core, Clean Architecture, Domain-Driven Design, and CQRS. Final-year Information Systems student, Mansoura University." data-ar="بابني أنظمة باك-إند باستخدام ASP.NET Core و Clean Architecture و Domain-Driven Design و CQRS. طالب سنة أخيرة نظم معلومات، جامعة المنصورة.">
+          Building backend systems with ASP.NET Core, Clean Architecture, Domain-Driven Design, and CQRS. Final-year Information Systems student, Mansoura University.
+        </p>
+        <div class="hero-links">
+          <a href="#work" class="btn-primary" data-en="View work" data-ar="اعرض الأعمال">View work</a>
+          <a href="https://linkedin.com/in/said10" target="_blank" rel="noopener" class="btn-ghost">LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-terminal" aria-hidden="true">
+        <div class="terminal-bar">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="terminal-title">bash</span>
+        </div>
+        <div class="terminal-body">
+          <div class="terminal-line"><span class="prompt">$</span> <span class="typed" id="typedLine"></span><span class="cursor">▌</span></div>
+          <div class="terminal-output" id="terminalOutput"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2 data-en="Work" data-ar="الأعمال">Work</h2>
+      </div>
+
+      <!-- Featured project: MechanicShop -->
+      <article class="project-feature">
+        <div class="project-feature-header">
+          <div>
+            <span class="project-status status-active" data-en="Active development" data-ar="قيد التطوير الفعلي">Active development</span>
+            <h3>MechanicShop</h3>
+            <p class="project-tagline" data-en="A workshop management system API — service scheduling, work orders, and customer records for auto repair shops." data-ar="واجهة برمجية لإدارة ورش السيارات — جدولة الخدمات، أوامر الشغل، وسجلات العملاء.">A workshop management system API — service scheduling, work orders, and customer records for auto repair shops.</p>
+          </div>
+          <a href="https://github.com/SaidAbdalsalam/MechanicShop" target="_blank" rel="noopener" class="repo-link">
+            <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+            <span data-en="Repository" data-ar="المستودع">Repository</span>
+          </a>
+        </div>
+
+        <div class="project-meta-row">
+          <span class="chip">C#</span>
+          <span class="chip">ASP.NET Core</span>
+          <span class="chip">Clean Architecture</span>
+          <span class="chip">DDD</span>
+          <span class="chip">CQRS</span>
+        </div>
+
+        <div class="project-grid">
+          <div class="project-block">
+            <h4 data-en="Architecture" data-ar="البنية المعمارية">Architecture</h4>
+            <p data-en="Structured as separate Domain, Application, Infrastructure, and API layers following Clean Architecture, with domain logic modeled through DDD tactical patterns — entities, value objects, and aggregate boundaries enforced at the domain layer rather than in controllers." data-ar="مبني على طبقات منفصلة: Domain و Application و Infrastructure و API طبقًا لمبادئ Clean Architecture، مع نمذجة منطق الدومين باستخدام أنماط DDD التكتيكية — الـ entities والـ value objects وحدود الـ aggregate مفروضة داخل طبقة الدومين نفسها مش في الـ controllers.">
+              Structured as separate Domain, Application, Infrastructure, and API layers following Clean Architecture, with domain logic modeled through DDD tactical patterns — entities, value objects, and aggregate boundaries enforced at the domain layer rather than in controllers.
+            </p>
+          </div>
+          <div class="project-block">
+            <h4 data-en="Security hardening" data-ar="تحصين الأمان">Security hardening</h4>
+            <p data-en="Working through a structured security roadmap: strengthening JWT signing keys, testing for IDOR vulnerabilities, adding refresh token reuse detection, rate limiting on authentication endpoints, and rebuilding password policy — currently flagged as the most urgent item." data-ar="بيتم العمل على خارطة طريق أمان محددة: تقوية مفاتيح توقيع JWT، اختبار ثغرات IDOR، إضافة كشف لإعادة استخدام الـ refresh token، تحديد معدل الطلبات على مسارات المصادقة، وإعادة بناء سياسة كلمات المرور — وهي البند الأكثر إلحاحًا حاليًا.">
+              Working through a structured security roadmap: strengthening JWT signing keys, testing for IDOR vulnerabilities, adding refresh token reuse detection, rate limiting on authentication endpoints, and rebuilding password policy — currently flagged as the most urgent item.
+            </p>
+          </div>
+          <div class="project-block">
+            <h4 data-en="Documentation" data-ar="التوثيق">Documentation</h4>
+            <p data-en="Maintains extensive internal documentation covering SOLID principles, design patterns, DDD tactical patterns, caching strategy (Redis, HybridCache, Output Cache), and observability (Serilog, OpenTelemetry, Prometheus, Grafana)." data-ar="فيه توثيق داخلي شامل يغطي مبادئ SOLID، أنماط التصميم، أنماط DDD التكتيكية، استراتيجية الـ caching (Redis و HybridCache و Output Cache)، والـ observability (Serilog و OpenTelemetry و Prometheus و Grafana).">
+              Maintains extensive internal documentation covering SOLID principles, design patterns, DDD tactical patterns, caching strategy (Redis, HybridCache, Output Cache), and observability (Serilog, OpenTelemetry, Prometheus, Grafana).
+            </p>
+          </div>
+          <div class="project-block">
+            <h4 data-en="Known gaps" data-ar="نقاط ناقصة معروفة">Known gaps</h4>
+            <p data-en="No dedicated test project yet — the main identified gap in the codebase right now. Earlier modeling work also surfaced real inconsistencies, including a dual-configuration issue in SectionSchedule and a missing defensive copy in the WorkOrder constructor." data-ar="لا يوجد مشروع اختبارات مخصص حتى الآن — وهي الفجوة الأساسية المحددة في الكود حاليًا. كشفت أعمال النمذجة السابقة أيضًا عن تعارضات حقيقية، من بينها مشكلة إعداد مزدوج في SectionSchedule ونسخة دفاعية مفقودة في constructor الخاص بـ WorkOrder.">
+              No dedicated test project yet — the main identified gap in the codebase right now. Earlier modeling work also surfaced real inconsistencies, including a dual-configuration issue in SectionSchedule and a missing defensive copy in the WorkOrder constructor.
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="section" id="stack">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2 data-en="Stack" data-ar="الأدوات">Stack</h2>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-col">
+          <h4 data-en="Language & Framework" data-ar="اللغة والإطار">Language &amp; Framework</h4>
+          <ul>
+            <li>C#</li>
+            <li>ASP.NET Core</li>
+            <li>Entity Framework Core</li>
+          </ul>
+        </div>
+        <div class="stack-col">
+          <h4 data-en="Architecture & Patterns" data-ar="البنية المعمارية والأنماط">Architecture &amp; Patterns</h4>
+          <ul>
+            <li>Clean Architecture</li>
+            <li>Domain-Driven Design</li>
+            <li>CQRS</li>
+            <li>SOLID Principles</li>
+          </ul>
+        </div>
+        <div class="stack-col">
+          <h4 data-en="API Design" data-ar="تصميم الـ API">API Design</h4>
+          <ul>
+            <li>RESTful APIs</li>
+            <li>API Versioning</li>
+            <li>Swagger / Scalar</li>
+          </ul>
+        </div>
+        <div class="stack-col">
+          <h4 data-en="Security" data-ar="الأمان">Security</h4>
+          <ul>
+            <li>JWT Authentication</li>
+            <li>Refresh Tokens</li>
+            <li>Rate Limiting</li>
+          </ul>
+        </div>
+        <div class="stack-col">
+          <h4 data-en="Caching & Performance" data-ar="التخزين المؤقت والأداء">Caching &amp; Performance</h4>
+          <ul>
+            <li>Redis</li>
+            <li>HybridCache</li>
+            <li>Output Cache</li>
+          </ul>
+        </div>
+        <div class="stack-col">
+          <h4 data-en="Observability" data-ar="المراقبة والقياس">Observability</h4>
+          <ul>
+            <li>Serilog</li>
+            <li>OpenTelemetry</li>
+            <li>Seq / Jaeger</li>
+            <li>Prometheus / Grafana</li>
+          </ul>
+        </div>
+        <div class="stack-col">
+          <h4 data-en="Tooling" data-ar="أدوات التطوير">Tooling</h4>
+          <ul>
+            <li>Docker / Docker Compose</li>
+            <li>Git / GitHub</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="section" id="approach">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2 data-en="Approach" data-ar="المنهج">Approach</h2>
+      </div>
+      <div class="approach-list">
+        <div class="approach-item">
+          <h4 data-en="Domain first" data-ar="الدومين أولًا">Domain first</h4>
+          <p data-en="Business rules live in the domain layer as entities, value objects, and aggregates — not scattered across controllers or services. If a rule is worth enforcing, it's worth modeling." data-ar="قواعد العمل بتعيش داخل طبقة الدومين على هيئة entities و value objects و aggregates — مش موزعة على الـ controllers أو الـ services. لو القاعدة تستحق التطبيق، فهي تستحق النمذجة.">
+            Business rules live in the domain layer as entities, value objects, and aggregates — not scattered across controllers or services. If a rule is worth enforcing, it's worth modeling.
+          </p>
+        </div>
+        <div class="approach-item">
+          <h4 data-en="Security is not an afterthought" data-ar="الأمان مش خطوة أخيرة">Security is not an afterthought</h4>
+          <p data-en="Authentication and authorization get the same structured attention as business logic — a written roadmap, prioritized by severity, not a reaction to problems as they appear." data-ar="المصادقة والتفويض بياخدوا نفس الاهتمام المنهجي زي منطق العمل — خارطة طريق مكتوبة ومرتبة حسب الخطورة، مش رد فعل للمشاكل وقت ما تظهر.">
+            Authentication and authorization get the same structured attention as business logic — a written roadmap, prioritized by severity, not a reaction to problems as they appear.
+          </p>
+        </div>
+        <div class="approach-item">
+          <h4 data-en="Document while building" data-ar="التوثيق أثناء البناء">Document while building</h4>
+          <p data-en="Architecture decisions, patterns, and trade-offs get written down as they happen, not reconstructed afterward. Documentation is treated as part of the codebase." data-ar="قرارات البنية المعمارية والأنماط والمقايضات بتتكتب وقت حدوثها، مش بتتجمع بعدين من الذاكرة. التوثيق بيتعامل معاه كجزء من الكود مش إضافة عليه.">
+            Architecture decisions, patterns, and trade-offs get written down as they happen, not reconstructed afterward. Documentation is treated as part of the codebase.
+          </p>
+        </div>
+        <div class="approach-item">
+          <h4 data-en="Honest about gaps" data-ar="صراحة في العيوب">Honest about gaps</h4>
+          <p data-en="A missing test suite or an inconsistent configuration gets logged and fixed, not hidden. Knowing what's incomplete is part of knowing the system." data-ar="غياب مجموعة اختبارات أو إعداد غير متسق بيتسجل وبيتصلح، مش بيتخبى. معرفة الناقص جزء من معرفة النظام نفسه.">
+            A missing test suite or an inconsistent configuration gets logged and fixed, not hidden. Knowing what's incomplete is part of knowing the system.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-contact" id="contact">
+    <div class="section-inner">
+      <h2 data-en="Let's talk" data-ar="لنتحدث">Let's talk</h2>
+      <p data-en="Studying Information Systems at Mansoura University, graduating 2027, and looking for backend development opportunities in the meantime." data-ar="بادرس نظم المعلومات في جامعة المنصورة، وموعد التخرج المتوقع 2027، وبدور على فرص عمل في تطوير الباك-إند في نفس الوقت.">
+        Studying Information Systems at Mansoura University, graduating 2027, and looking for backend development opportunities in the meantime.
+      </p>
+      <div class="contact-links">
+        <a href="https://linkedin.com/in/said10" target="_blank" rel="noopener" class="btn-primary">LinkedIn</a>
+        <a href="https://github.com/SaidAbdalsalam" target="_blank" rel="noopener" class="btn-ghost">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span data-en="Said Abdalsalam" data-ar="سعيد عبدالسلام">Said Abdalsalam</span>
+    <span class="footer-dim" data-en="Mansoura, Egypt" data-ar="المنصورة، مصر">Mansoura, Egypt</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
